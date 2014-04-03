@@ -1,0 +1,8 @@
+.autotest
+History.txt
+Manifest.txt
+README.txt
+Rakefile
+bin/markov_lines
+lib/markov_lines.rb
+test/test_markov_lines.rb
