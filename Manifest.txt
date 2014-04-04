@@ -1,4 +1,5 @@
 .autotest
+Guardfile
 History.txt
 Manifest.txt
 README.txt

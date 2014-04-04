@@ -1,0 +1,15 @@
+* Theory
+** generate_line should take beats and end_word, returns a matching line (end word rhymes, same meter)
+** we need to find words that come before the end_word using markov chains, but reading backward?
+** just go the correct number of words, rather than beats?
+
+* Tasks
+** TODO Chainer should chain backwards using generate_line
+** TODO Rhymer should give us some words that rhyme
+** TODO Chainer should generate one line at a time
+** TODO Chainer should return a line that is the proper number of words long
+
+* App Loop
+** User is presented with rhyming and non-rhyming words. At least option will rhyme with the previous end word.
+** User selects a word
+** A line is returned, ending wit a word that rhymes the first word
